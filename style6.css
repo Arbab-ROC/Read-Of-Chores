@@ -1,0 +1,15 @@
+#menu ul li a:hover{
+	background-color: #8E959B;
+	color:#FFBB33;
+	font-weight: bold;
+	border-radius: 3px;
+	transition:0.9s;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}

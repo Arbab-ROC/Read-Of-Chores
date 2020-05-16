@@ -1,0 +1,124 @@
+.cfbox{
+	background: url("post2.jpg");
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	
+	
+}
+input[type=text]:focus{
+	border-color:black;
+	box-shadow:11px 11px 11px black;
+}
+
+.site_side_title{
+	font-family:Times new roman;
+	
+}
+.site_side_title h1{
+	font-weight:bold;
+	font-size:80px;
+	color:white;
+}
+.site_side_title h2{
+	font-size:20px;
+}
+.site_side_title p{
+	letter-spacing:1px;
+	font-size:15px;
+	color:#ab9e9e;
+}
+
+.cbox{
+	height:400px;
+	width:40%;
+    
+	margin-top:130px;
+	margin-left:100px;
+}
+	
+.cbox1{
+    
+	height:600px;
+	width:35%;
+	margin-top:-500px;
+	margin-left:700px;	
+	color:white;
+	padding:0px 30px;
+	background:rgba(0,0,0,0.6);
+}
+
+.roc-form h2{
+	margin:0;
+	padding:20px;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+}
+.roc-form p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#fff;
+}
+
+.roc-form p:hover{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	color:#FFBB33;
+}
+.roc-form input{
+	width:100%;
+	margin-bottom:20px;	
+}
+.roc-form input[type=text]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:35px;
+	color:#fff;
+	font-size:15px;	
+}
+
+.roc-form input:hover[type=text]{
+	border:none;
+	border-bottom:1px solid #FFBB33;
+	background:transparent;
+	outline:none;	
+}
+
+.roc-form input[type=submit]{
+	height:30px;
+	color:#fff;
+	font-size:15px;
+    background:red;
+    cursor:pointer;
+    border-radius :20px;
+    border:none;
+    outline:none;
+	margin-top:5%;
+}		
+.cbox h1{
+	font-size:90px;
+}
+
+.stationary{
+    border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:35px;
+	color:#fff;
+	font-size:15px;	
+	width:100%;
+}
+.input btn a:hover{
+	background-color:#FF0000;
+	
+}

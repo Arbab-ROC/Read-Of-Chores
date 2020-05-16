@@ -1,0 +1,30 @@
+.topnav {
+	display: flex;
+  justify-content: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #5bc0de;
+  font-weight: bold;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #5bc0de;
+  border-bottom: 3px solid #5bc0de;
+  color: black;
+  font-weight: bold;
+}

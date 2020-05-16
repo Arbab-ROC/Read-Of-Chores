@@ -1,0 +1,159 @@
+p{
+	
+	color: #8E959B;
+	line-height: 25px;
+}
+h2,h3{
+	color:#fff;
+}
+h2{
+	
+	font-size: 18px;
+}
+.footer-top{
+	
+	background: #111;
+	padding: 80px 0;
+}
+.segment-one a h3{
+	color: #FFBB33;
+	letter spacing: 3px;
+	margin: 10px 0;
+	transition: .5s;
+	
+}
+.segment-two h2{
+	color: #fff;
+	font-family:
+	text-transform: uppercase;
+}
+.segment-two h2:before{
+	
+	content: '|';
+	color: #FFBB33;
+	padding-right: 10px;
+	
+}
+.segment-two ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-two ul li{
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+	
+}
+.segment-two ul li a{
+		color: #8E959B;
+		text-decoration: none;
+}	
+
+.segment-two ul li a:hover{
+		color: #FFBB33;
+		transition:0.9s;
+}
+.segment-three h2{
+	
+	color: #fff;
+	text-transform: uppercase;
+	
+}	
+.segment-three h2:before{
+	
+	content: '|';
+	color: #FFBB33;
+	padding-right: 10px;
+}
+.segment-three ul li{
+	background: #494848;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;	
+}
+.segment-three ul li a i{
+	font-size: 20px;
+	color:#fff ;
+	padding: 10px 12px;
+	transition: .5s;
+}
+.segment-three ul li a i:before{
+	font-size: 20px;
+	color:#FFBB33 ;
+	padding: opx 2px;
+	transition: .5s;
+	transform:scale(.9);
+	z-index: -1;
+}
+.segment-three ul li a:hover i:before{
+	transform:scale(1.1);
+	box-shadow:0 0 50px #FFBB33;
+}
+.segment-three ul li a:hover{
+	color: #FFBB33
+	box-shadow: 0 0 50px #FFBB33;
+}
+.segment-four h2{
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-four h2:before{
+	
+	content: '|';
+	color: #FFBB33;
+	padding-right: 10px;
+}
+.segment-four ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.segment-four ul li{
+	height: 40px;
+	color:#8E959B ;	
+}
+
+.segment-four ul li a{
+		color: #8E959B;
+		text-decoration: none;
+}
+.footer-bottom-text{
+	text-align: center;
+	background: #000;
+	line-height: 75px;
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.md-mb-30{
+		margin-bottom:30px;
+		
+	}
+}  
+
+@media only screen and (max-width: 768px){
+	.sm-mb-30{
+		margin-bottom:30px;
+	}
+	.footer-top{
+		padding: 50px 0;
+	}
+}
+
+#menu ul li a:hover{
+	background-color: #8E959B;
+	color:#FFBB33;
+	font-weight: bold;
+	border-radius: 3px;
+	transition:0.9s;
+}
+
+
+
+@media only screen and (max-width: 768px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}
